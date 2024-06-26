@@ -1,0 +1,563 @@
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 2	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 10	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 2	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 10	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Extracting enclosing subgraphs for gene pairs in train set
+Extracting enclosing subgraphs for gene pairs in valid set
+Extracting enclosing subgraphs for gene pairs in test set
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 2	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 10	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:2
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 2	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 10	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:2
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 2	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 10	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:2
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 2	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 10	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:2
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 2	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 10	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:2
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 2	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 10	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 4308244
+Starting training with full batch...
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 10	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 4308244
+Starting training with full batch...
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 10	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 4308244
+Starting training with full batch...
+[95m Eval Performance:{'loss': 0.3026048439240034, 'auc': 0.9449911942523797, 'aupr': 0.9528453252113411, 'f1_score': 0.8626562295569339}in 164.0912425518036[0m
+[93m Test Performance:{'loss': 0.28374091655888994, 'auc': 0.950608230914356, 'aupr': 0.9574227870523271, 'f1_score': 0.8702652650922469}in 164.0912425518036[0m
+Better models found w.r.t accuracy. Saved it!
+[93m Test Performance Per Class:{'loss': 0.28374091655888994, 'auc': 0.950608230914356, 'aupr': 0.9574227870523271, 'f1_score': 0.8702652650922469}in 165.05565881729126[0m
+Epoch 1 with loss: 0.3541689354382204, training auc: 0.92071397221572, training aupr: 0.9314678904995926, weight_norm: 237.33157348632812 in 1682.4830069541931
+[95m Eval Performance:{'loss': 0.292301671156841, 'auc': 0.9471999749278049, 'aupr': 0.9547275555780443, 'f1_score': 0.8856781997051933}in 162.10458326339722[0m
+[93m Test Performance:{'loss': 0.2817266614714289, 'auc': 0.95166162936653, 'aupr': 0.9572794141914368, 'f1_score': 0.8881401070885243}in 162.10458326339722[0m
+Better models found w.r.t accuracy. Saved it!
+[93m Test Performance Per Class:{'loss': 0.2817266614714289, 'auc': 0.95166162936653, 'aupr': 0.9572794141914368, 'f1_score': 0.8881401070885243}in 163.0450632572174[0m
+Epoch 2 with loss: 0.2305771518247516, training auc: 0.9704525589794593, training aupr: 0.9726041405051021, weight_norm: 255.79356384277344 in 656.1485784053802
+[95m Eval Performance:{'loss': 0.3275430081560548, 'auc': 0.9443143468500723, 'aupr': 0.9505834281306088, 'f1_score': 0.8830918921268402}in 164.48021864891052[0m
+[93m Test Performance:{'loss': 0.30571081637393166, 'auc': 0.9499674637846661, 'aupr': 0.9545812744979668, 'f1_score': 0.8869851261226459}in 164.48021864891052[0m
+Epoch 3 with loss: 0.16763371454154172, training auc: 0.9849190936603659, training aupr: 0.9844880396322087, weight_norm: 270.97174072265625 in 663.0810422897339
+[95m Eval Performance:{'loss': 0.3840344735056953, 'auc': 0.9451300240163696, 'aupr': 0.9513583829836932, 'f1_score': 0.8882940341443956}in 159.68207716941833[0m
+[93m Test Performance:{'loss': 0.3641758717903011, 'auc': 0.9478667480971333, 'aupr': 0.9532729131274098, 'f1_score': 0.8857323393724474}in 159.68207716941833[0m
+Epoch 4 with loss: 0.13680832726315836, training auc: 0.9907337489499872, training aupr: 0.9900604731953971, weight_norm: 276.9847106933594 in 657.3015341758728
+[95m Eval Performance:{'loss': 0.43429211029700476, 'auc': 0.9403776741724671, 'aupr': 0.9467568050997647, 'f1_score': 0.8799882603855204}in 162.53941750526428[0m
+[93m Test Performance:{'loss': 0.4085293556748452, 'auc': 0.9441622568681609, 'aupr': 0.9495138562659553, 'f1_score': 0.8810543339325845}in 162.54041481018066[0m
+Epoch 5 with loss: 0.11674758360794421, training auc: 0.9932689599166463, training aupr: 0.9928417118621783, weight_norm: 284.7481994628906 in 642.6318435668945
+[95m Eval Performance:{'loss': 0.43889363793408975, 'auc': 0.9420619763434688, 'aupr': 0.9489013207335674, 'f1_score': 0.8822182688927044}in 162.49354195594788[0m
+[93m Test Performance:{'loss': 0.424075401690501, 'auc': 0.9433189760202427, 'aupr': 0.9483047583412673, 'f1_score': 0.88288760763157}in 162.49354195594788[0m
+Epoch 6 with loss: 0.10814714781270268, training auc: 0.9949162280052893, training aupr: 0.9944971696831225, weight_norm: 295.72625732421875 in 642.1291904449463
+[95m Eval Performance:{'loss': 0.5911486223049923, 'auc': 0.9421290634296934, 'aupr': 0.9471116343439879, 'f1_score': 0.8794799909636128}in 162.27811455726624[0m
+[93m Test Performance:{'loss': 0.5955536315924685, 'auc': 0.942178347715522, 'aupr': 0.9461620120883424, 'f1_score': 0.8793882202418765}in 162.27811455726624[0m
+Epoch 7 with loss: 0.09358865896951449, training auc: 0.9960863058266929, training aupr: 0.9958861225791132, weight_norm: 301.091064453125 in 645.6038789749146
+[95m Eval Performance:{'loss': 0.4772329472968008, 'auc': 0.9380044072447689, 'aupr': 0.944222351407547, 'f1_score': 0.8803765911444068}in 164.84324622154236[0m
+[93m Test Performance:{'loss': 0.47188403500675413, 'auc': 0.9393121872910927, 'aupr': 0.9435602595555527, 'f1_score': 0.876487259952831}in 164.84424257278442[0m
+Validation performance didn't improve for 5 epochs. Training stops.
+[93m Test Performance Per Class:{'loss': 0.2817266614714289, 'auc': 0.95166162936653, 'aupr': 0.9572794141914368, 'f1_score': 0.8881401070885243}in 164.84424257278442[0m
+Epoch 8 with loss: 0.08315438201671906, training auc: 0.9969765918974272, training aupr: 0.9967620513604937, weight_norm: 302.84783935546875 in 650.9645159244537
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 4308244
+Starting training with full batch...
+[95m Eval Performance:{'loss': 0.2892260071055024, 'auc': 0.9473303500810036, 'aupr': 0.9537010909055117, 'f1_score': 0.8718773793372427}in 172.4937071800232[0m
+[93m Test Performance:{'loss': 0.2809154118879043, 'auc': 0.9489489727406388, 'aupr': 0.9561808134791768, 'f1_score': 0.8806343465110407}in 172.494704246521[0m
+Better models found w.r.t accuracy. Saved it!
+[93m Test Performance Per Class:{'loss': 0.2809154118879043, 'auc': 0.9489489727406388, 'aupr': 0.9561808134791768, 'f1_score': 0.8806343465110407}in 173.47438073158264[0m
+Epoch 1 with loss: 0.36299948586841646, training auc: 0.9181524435164522, training aupr: 0.9292794681074211, weight_norm: 252.6248321533203 in 1747.7089176177979
+[95m Eval Performance:{'loss': 0.29811517365474616, 'auc': 0.9469033305281618, 'aupr': 0.9547553418068111, 'f1_score': 0.8828869918004361}in 172.6990852355957[0m
+[93m Test Performance:{'loss': 0.28823869984691647, 'auc': 0.9504315906280306, 'aupr': 0.9567358214316012, 'f1_score': 0.8830508805778073}in 172.70008254051208[0m
+Epoch 2 with loss: 0.22780092893524118, training auc: 0.9714111536456116, training aupr: 0.9725307877076548, weight_norm: 264.42333984375 in 642.3183174133301
+[95m Eval Performance:{'loss': 0.30676922544177654, 'auc': 0.9465949068599832, 'aupr': 0.9513651045395796, 'f1_score': 0.8814512350931903}in 171.91418194770813[0m
+[93m Test Performance:{'loss': 0.2907074560063633, 'auc': 0.9494440552832089, 'aupr': 0.954089980426756, 'f1_score': 0.8833676745035823}in 171.9151792526245[0m
+Epoch 3 with loss: 0.17435610277599164, training auc: 0.9837199677451203, training aupr: 0.9835836188823643, weight_norm: 271.13934326171875 in 650.2288453578949
+[95m Eval Performance:{'loss': 0.37214499665836315, 'auc': 0.9408819850295896, 'aupr': 0.9472502933921149, 'f1_score': 0.8805798893403806}in 172.35301065444946[0m
+[93m Test Performance:{'loss': 0.34997927124547484, 'auc': 0.9455244923517814, 'aupr': 0.9517784692306949, 'f1_score': 0.8835519068717882}in 172.35301065444946[0m
+Epoch 4 with loss: 0.14451465848833323, training auc: 0.9893212202567575, training aupr: 0.9888571137518593, weight_norm: 278.4247131347656 in 652.5695316791534
+[95m Eval Performance:{'loss': 0.47846336628219727, 'auc': 0.9378505546325623, 'aupr': 0.9463216551071985, 'f1_score': 0.879779006352583}in 178.83273005485535[0m
+[93m Test Performance:{'loss': 0.4352943185529405, 'auc': 0.942049471253003, 'aupr': 0.9495468878384902, 'f1_score': 0.880487736864846}in 178.8337275981903[0m
+Epoch 5 with loss: 0.1231938853776187, training auc: 0.9925503979858025, training aupr: 0.9920300474284817, weight_norm: 278.72607421875 in 666.5707094669342
+[95m Eval Performance:{'loss': 0.4954932456760279, 'auc': 0.9390129325298714, 'aupr': 0.9468626161855739, 'f1_score': 0.8773199121191236}in 179.36026668548584[0m
+[93m Test Performance:{'loss': 0.45767857799776307, 'auc': 0.9449280446102466, 'aupr': 0.951382819378097, 'f1_score': 0.8798167840918896}in 179.36026668548584[0m
+Epoch 6 with loss: 0.10793972117407771, training auc: 0.9944140607113872, training aupr: 0.9942746566592549, weight_norm: 281.8413391113281 in 672.591902256012
+[95m Eval Performance:{'loss': 0.48025397477951726, 'auc': 0.9379366330865985, 'aupr': 0.9452655051124753, 'f1_score': 0.8735091355132405}in 178.9242537021637[0m
+[93m Test Performance:{'loss': 0.4424918397228316, 'auc': 0.9439098961886488, 'aupr': 0.950249872027327, 'f1_score': 0.8787535789177887}in 178.9242537021637[0m
+Validation performance didn't improve for 5 epochs. Training stops.
+[93m Test Performance Per Class:{'loss': 0.2809154118879043, 'auc': 0.9489489727406388, 'aupr': 0.9561808134791768, 'f1_score': 0.8806343465110407}in 178.9242537021637[0m
+Epoch 7 with loss: 0.09420502789088347, training auc: 0.995916329821599, training aupr: 0.9956670816902309, weight_norm: 285.3546142578125 in 670.9003512859344
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 4308244
+Starting training with full batch...
+[95m Eval Performance:{'loss': 0.28959700974479186, 'auc': 0.9475521189342037, 'aupr': 0.9545735139438204, 'f1_score': 0.880563483012714}in 177.46471643447876[0m
+[93m Test Performance:{'loss': 0.2800526381393738, 'auc': 0.9506651632218923, 'aupr': 0.9570355184686244, 'f1_score': 0.8847068705564786}in 177.46571373939514[0m
+Better models found w.r.t accuracy. Saved it!
+[93m Test Performance Per Class:{'loss': 0.2800526381393738, 'auc': 0.9506651632218923, 'aupr': 0.9570355184686244, 'f1_score': 0.8847068705564786}in 178.33637976646423[0m
+Epoch 1 with loss: 0.35878033044465474, training auc: 0.9205636482470337, training aupr: 0.9300809645034519, weight_norm: 243.5740966796875 in 1761.126734495163
+[95m Eval Performance:{'loss': 0.3186147183047987, 'auc': 0.9475852751191993, 'aupr': 0.954665810828323, 'f1_score': 0.8851408274846235}in 177.86265301704407[0m
+[93m Test Performance:{'loss': 0.305140259112249, 'auc': 0.9511673719206264, 'aupr': 0.9564168501640231, 'f1_score': 0.8862365576266406}in 177.86365175247192[0m
+Better models found w.r.t accuracy. Saved it!
+[93m Test Performance Per Class:{'loss': 0.305140259112249, 'auc': 0.9511673719206264, 'aupr': 0.9564168501640231, 'f1_score': 0.8862365576266406}in 178.79514908790588[0m
+Epoch 2 with loss: 0.23129685484710033, training auc: 0.9715426383959858, training aupr: 0.9734502727631352, weight_norm: 268.4778137207031 in 654.1852951049805
+[95m Eval Performance:{'loss': 0.32939973261240313, 'auc': 0.9427410670736854, 'aupr': 0.9482954251434635, 'f1_score': 0.87926320674946}in 177.8549747467041[0m
+[93m Test Performance:{'loss': 0.3124786848935276, 'auc': 0.9459707586530977, 'aupr': 0.9517096601357322, 'f1_score': 0.8834462656522161}in 177.8549747467041[0m
+Epoch 3 with loss: 0.16946432762517688, training auc: 0.9851391310395676, training aupr: 0.9846238835967124, weight_norm: 270.7825622558594 in 653.6916205883026
+[95m Eval Performance:{'loss': 0.4001867952309878, 'auc': 0.9442774735276579, 'aupr': 0.9508566499701405, 'f1_score': 0.8808603527700404}in 177.841206073761[0m
+[93m Test Performance:{'loss': 0.38510749132776545, 'auc': 0.9471910682596325, 'aupr': 0.9541675395113588, 'f1_score': 0.883139448689969}in 177.841206073761[0m
+Epoch 4 with loss: 0.13864561953069118, training auc: 0.9907635149279951, training aupr: 0.9902150298881488, weight_norm: 274.5213317871094 in 654.3382399082184
+[95m Eval Performance:{'loss': 0.414613228653912, 'auc': 0.9425660903913881, 'aupr': 0.9474736689183443, 'f1_score': 0.878170500272587}in 177.8422064781189[0m
+[93m Test Performance:{'loss': 0.3990110757704522, 'auc': 0.9473141440666183, 'aupr': 0.9504079290446154, 'f1_score': 0.8818623924962437}in 177.8422064781189[0m
+Epoch 5 with loss: 0.11384780581496405, training auc: 0.9940255030529075, training aupr: 0.9934754495181903, weight_norm: 276.4949951171875 in 654.9670333862305
+[95m Eval Performance:{'loss': 0.5104883213301675, 'auc': 0.941421764367199, 'aupr': 0.9462206623580918, 'f1_score': 0.8825825846419971}in 177.50626707077026[0m
+[93m Test Performance:{'loss': 0.486661988499214, 'auc': 0.9446937679526887, 'aupr': 0.9494000879228149, 'f1_score': 0.8812302875138411}in 177.50626707077026[0m
+Epoch 6 with loss: 0.1004249184088928, training auc: 0.9954186049669678, training aupr: 0.9951458201322771, weight_norm: 283.2010803222656 in 653.215185880661
+[95m Eval Performance:{'loss': 0.4667356693982023, 'auc': 0.942504455333341, 'aupr': 0.9470449218149574, 'f1_score': 0.8825519182157326}in 180.29587364196777[0m
+[93m Test Performance:{'loss': 0.4476428716443955, 'auc': 0.9445889920648168, 'aupr': 0.9519714405896892, 'f1_score': 0.8814523942061596}in 180.29687070846558[0m
+Epoch 7 with loss: 0.091019068514991, training auc: 0.9962698516166367, training aupr: 0.9958987752715353, weight_norm: 278.34234619140625 in 656.7120332717896
+[95m Eval Performance:{'loss': 0.5155960035640582, 'auc': 0.9435244688604152, 'aupr': 0.9477204875798404, 'f1_score': 0.8776938585685855}in 177.6509850025177[0m
+[93m Test Performance:{'loss': 0.4938835115551741, 'auc': 0.9445012107628202, 'aupr': 0.9501289271978678, 'f1_score': 0.8803524508703692}in 177.6509850025177[0m
+Validation performance didn't improve for 5 epochs. Training stops.
+[93m Test Performance Per Class:{'loss': 0.305140259112249, 'auc': 0.9511673719206264, 'aupr': 0.9564168501640231, 'f1_score': 0.8862365576266406}in 177.6509850025177[0m
+Epoch 8 with loss: 0.08434736318990924, training auc: 0.9970540595920866, training aupr: 0.9969344430382862, weight_norm: 278.70654296875 in 655.2253260612488
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 3	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Extracting enclosing subgraphs for gene pairs in train set
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 3	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 3	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 4308244
+Starting training with full batch...
+[95m Eval Performance:{'loss': 0.3030762730156426, 'auc': 0.9454124212391676, 'aupr': 0.9527353925105293, 'f1_score': 0.8693021181499347}in 219.06905913352966[0m
+[93m Test Performance:{'loss': 0.2911275349016687, 'auc': 0.9486815242112145, 'aupr': 0.9549615417409208, 'f1_score': 0.8716192733191497}in 219.07005643844604[0m
+Better models found w.r.t accuracy. Saved it!
+[93m Test Performance Per Class:{'loss': 0.2911275349016687, 'auc': 0.9486815242112145, 'aupr': 0.9549615417409208, 'f1_score': 0.8716192733191497}in 220.4962453842163[0m
+Epoch 1 with loss: 0.3622096637159251, training auc: 0.9193558247942529, training aupr: 0.9307203590973757, weight_norm: 244.12393188476562 in 1882.4540383815765
+[95m Eval Performance:{'loss': 0.28790966590948863, 'auc': 0.9490802661116071, 'aupr': 0.9539049046963759, 'f1_score': 0.8865165791791955}in 245.27995347976685[0m
+[93m Test Performance:{'loss': 0.2791489975828656, 'auc': 0.9516556537617923, 'aupr': 0.9571593057481319, 'f1_score': 0.8860534494122146}in 245.27995347976685[0m
+Better models found w.r.t accuracy. Saved it!
+[93m Test Performance Per Class:{'loss': 0.2791489975828656, 'auc': 0.9516556537617923, 'aupr': 0.9571593057481319, 'f1_score': 0.8860534494122146}in 246.2882583141327[0m
+Epoch 2 with loss: 0.24251870967950043, training auc: 0.9694216246387339, training aupr: 0.9710118350999628, weight_norm: 265.8936767578125 in 971.9224181175232
+[95m Eval Performance:{'loss': 0.3390309552360425, 'auc': 0.9442682350411137, 'aupr': 0.9510546277903896, 'f1_score': 0.8822267463084456}in 177.4553632736206[0m
+[93m Test Performance:{'loss': 0.32037691397515805, 'auc': 0.9490616229866228, 'aupr': 0.9547817780867316, 'f1_score': 0.8827573435886029}in 177.456360578537[0m
+Epoch 3 with loss: 0.17304810751857383, training auc: 0.9842066282350416, training aupr: 0.9841923208820874, weight_norm: 276.0719909667969 in 788.2965595722198
+[95m Eval Performance:{'loss': 0.4105772254741297, 'auc': 0.9402534370972305, 'aupr': 0.9465814868934677, 'f1_score': 0.8811453605402223}in 170.42416954040527[0m
+[93m Test Performance:{'loss': 0.3953467849716187, 'auc': 0.9439088999660048, 'aupr': 0.9498896112720718, 'f1_score': 0.880954706035669}in 170.42416954040527[0m
+Epoch 4 with loss: 0.14032722124306674, training auc: 0.9907770477183818, training aupr: 0.9905630414115242, weight_norm: 284.24066162109375 in 659.9428658485413
+[95m Eval Performance:{'loss': 0.42007093612862895, 'auc': 0.9390873550528591, 'aupr': 0.9472815360173488, 'f1_score': 0.8771371776519723}in 168.54319953918457[0m
+[93m Test Performance:{'loss': 0.3956045405550418, 'auc': 0.9446939457066749, 'aupr': 0.9517061756939924, 'f1_score': 0.8806299435412916}in 168.54319953918457[0m
+Epoch 5 with loss: 0.11506692539858684, training auc: 0.9936208157571131, training aupr: 0.993208176366218, weight_norm: 281.8124694824219 in 634.9028358459473
+[95m Eval Performance:{'loss': 0.484622232501222, 'auc': 0.9399499432535027, 'aupr': 0.9477451577566691, 'f1_score': 0.8808550770053245}in 169.86167216300964[0m
+[93m Test Performance:{'loss': 0.45029657836701176, 'auc': 0.9446626274249065, 'aupr': 0.9521738947402132, 'f1_score': 0.8811248972759321}in 169.86167216300964[0m
+Epoch 6 with loss: 0.10964559976618445, training auc: 0.9948659197045235, training aupr: 0.9944416481977069, weight_norm: 300.6509704589844 in 638.7066614627838
+[95m Eval Performance:{'loss': 0.4535873280927143, 'auc': 0.940624074191397, 'aupr': 0.9461268996772306, 'f1_score': 0.8799074904484993}in 168.4584264755249[0m
+[93m Test Performance:{'loss': 0.42788354191285344, 'auc': 0.945849645794442, 'aupr': 0.9522879563954744, 'f1_score': 0.8812363787250876}in 168.4584264755249[0m
+Epoch 7 with loss: 0.0916444809500421, training auc: 0.9962331333670413, training aupr: 0.9960448513587872, weight_norm: 295.52349853515625 in 634.7572247982025
+[95m Eval Performance:{'loss': 0.5336557208278537, 'auc': 0.9389721614866317, 'aupr': 0.9436224710580584, 'f1_score': 0.8772072379798197}in 169.325110912323[0m
+[93m Test Performance:{'loss': 0.4892304759007565, 'auc': 0.9441437748890821, 'aupr': 0.9488559166808289, 'f1_score': 0.8819538834118346}in 169.325110912323[0m
+Validation performance didn't improve for 5 epochs. Training stops.
+[93m Test Performance Per Class:{'loss': 0.2791489975828656, 'auc': 0.9516556537617923, 'aupr': 0.9571593057481319, 'f1_score': 0.8860534494122146}in 169.325110912323[0m
+Epoch 8 with loss: 0.0823623481980954, training auc: 0.9969949931110944, training aupr: 0.9966918813863546, weight_norm: 293.7561340332031 in 633.8576319217682
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 16	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 4740500
+Starting training with full batch...
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 16	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 4740500
+Starting training with full batch...
+Epoch 1 with loss: 0.3877730891461683, training auc: 0.9190303181983377, training aupr: 0.9300149848865109, weight_norm: 365.7084655761719 in 3023.2387635707855
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 4740500
+Starting training with full batch...
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 128	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 4740500
+Starting training with full batch...
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 64	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 30	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 4740500
+Starting training with full batch...
+[95m Eval Performance:{'loss': 0.29265963128538514, 'auc': 0.9441286370498971, 'aupr': 0.9509526340891036, 'f1_score': 0.8724741682871678}in 1019.3928315639496[0m
+[93m Test Performance:{'loss': 0.2802920567422576, 'auc': 0.9494716894936881, 'aupr': 0.9566854024143068, 'f1_score': 0.87982861428811}in 1019.3928315639496[0m
+Better models found w.r.t accuracy. Saved it!
+[93m Test Performance Per Class:{'loss': 0.2802920567422576, 'auc': 0.9494716894936881, 'aupr': 0.9566854024143068, 'f1_score': 0.87982861428811}in 1025.4027123451233[0m
+Epoch 1 with loss: 0.3507565571141712, training auc: 0.9234174806930614, training aupr: 0.9341653061045473, weight_norm: 313.0683898925781 in 5799.5284242630005
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 64	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 3	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 4740500
+Starting training with full batch...
+[95m Eval Performance:{'loss': 0.2931423986224869, 'auc': 0.9457255702525721, 'aupr': 0.9525777763037974, 'f1_score': 0.8728972816485515}in 256.0322403907776[0m
+[93m Test Performance:{'loss': 0.2812688139338585, 'auc': 0.950152492863822, 'aupr': 0.955546097504076, 'f1_score': 0.8792888841672649}in 256.0322403907776[0m
+Better models found w.r.t accuracy. Saved it!
+[93m Test Performance Per Class:{'loss': 0.2812688139338585, 'auc': 0.950152492863822, 'aupr': 0.955546097504076, 'f1_score': 0.8792888841672649}in 257.11234855651855[0m
+Epoch 1 with loss: 0.35468549539826894, training auc: 0.9232689647343026, training aupr: 0.9344407960151576, weight_norm: 317.9949645996094 in 2521.8000144958496
+[95m Eval Performance:{'loss': 0.2948510449512917, 'auc': 0.9456148630669315, 'aupr': 0.9516193173679901, 'f1_score': 0.8808495890532331}in 260.77058458328247[0m
+[93m Test Performance:{'loss': 0.2734897585180041, 'auc': 0.9531773358056779, 'aupr': 0.9587023178379047, 'f1_score': 0.8891706406698536}in 260.77058458328247[0m
+Epoch 2 with loss: 0.241532569594179, training auc: 0.9688174597675957, training aupr: 0.9710007144786965, weight_norm: 332.02593994140625 in 959.2243123054504
+[95m Eval Performance:{'loss': 0.3062419676135154, 'auc': 0.945752439734341, 'aupr': 0.9523276854939141, 'f1_score': 0.8795913184883177}in 256.4092893600464[0m
+[93m Test Performance:{'loss': 0.29230778988777195, 'auc': 0.9499777133718368, 'aupr': 0.9551606462870428, 'f1_score': 0.8827789563516112}in 256.4102854728699[0m
+Better models found w.r.t accuracy. Saved it!
+[93m Test Performance Per Class:{'loss': 0.29230778988777195, 'auc': 0.9499777133718368, 'aupr': 0.9551606462870428, 'f1_score': 0.8827789563516112}in 257.4026279449463[0m
+Epoch 3 with loss: 0.1897812784136681, training auc: 0.9815544151228125, training aupr: 0.9816860041836644, weight_norm: 334.42852783203125 in 956.233024597168
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 64	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 3	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 4740500
+Starting training with full batch...
+[95m Eval Performance:{'loss': 0.31343393026879157, 'auc': 0.941163098640206, 'aupr': 0.9502346541110934, 'f1_score': 0.8806057199296556}in 858.6540758609772[0m
+[93m Test Performance:{'loss': 0.30963596591959786, 'auc': 0.9442781054311165, 'aupr': 0.9528632220153074, 'f1_score': 0.8816735165155233}in 858.6550724506378[0m
+Better models found w.r.t accuracy. Saved it!
+[93m Test Performance Per Class:{'loss': 0.30963596591959786, 'auc': 0.9442781054311165, 'aupr': 0.9528632220153074, 'f1_score': 0.8816735165155233}in 863.242787361145[0m
+Epoch 1 with loss: 0.35694351078670344, training auc: 0.9236319696760382, training aupr: 0.9336113077538998, weight_norm: 322.22216796875 in 5681.921545743942
+[95m Eval Performance:{'loss': 0.2936517264589345, 'auc': 0.947676226034752, 'aupr': 0.9540184743783254, 'f1_score': 0.8821228876660323}in 1073.6305549144745[0m
+[93m Test Performance:{'loss': 0.2834569495023943, 'auc': 0.9506859524765902, 'aupr': 0.9572755290959986, 'f1_score': 0.8861944943364297}in 1073.6305549144745[0m
+Better models found w.r.t accuracy. Saved it!
+[93m Test Performance Per Class:{'loss': 0.2834569495023943, 'auc': 0.9506859524765902, 'aupr': 0.9572755290959986, 'f1_score': 0.8861944943364297}in 1079.3781645298004[0m
+Epoch 2 with loss: 0.23659412378152267, training auc: 0.9696643326165092, training aupr: 0.9719189671472495, weight_norm: 322.44866943359375 in 3735.9222400188446
+[95m Eval Performance:{'loss': 0.33096188787355113, 'auc': 0.9449524517042337, 'aupr': 0.9514188616323497, 'f1_score': 0.8775233403188961}in 988.2343497276306[0m
+[93m Test Performance:{'loss': 0.3138376873079423, 'auc': 0.949302777731714, 'aupr': 0.9553536558636881, 'f1_score': 0.8827860541557593}in 988.2343497276306[0m
+Epoch 3 with loss: 0.18125848651581097, training auc: 0.9834067013574832, training aupr: 0.983840725637944, weight_norm: 326.83270263671875 in 3756.839207649231
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 64	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 3	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 4740500
+Starting training with full batch...
+[95m Eval Performance:{'loss': 0.2878352572072947, 'auc': 0.94569955428808, 'aupr': 0.9519501127790072, 'f1_score': 0.8781207364514324}in 810.733404636383[0m
+[93m Test Performance:{'loss': 0.2810215359615699, 'auc': 0.9493395292673553, 'aupr': 0.9556545135434936, 'f1_score': 0.8815889395974725}in 810.7344019412994[0m
+Better models found w.r.t accuracy. Saved it!
+[93m Test Performance Per Class:{'loss': 0.2810215359615699, 'auc': 0.9493395292673553, 'aupr': 0.9556545135434936, 'f1_score': 0.8815889395974725}in 814.5641665458679[0m
+Epoch 1 with loss: 0.3667732352453671, training auc: 0.9214550359525281, training aupr: 0.9328117896119764, weight_norm: 323.532958984375 in 5546.403455018997
+[95m Eval Performance:{'loss': 0.2923039358194295, 'auc': 0.9458196581447469, 'aupr': 0.9526331153811728, 'f1_score': 0.8793971915557938}in 932.1368322372437[0m
+[93m Test Performance:{'loss': 0.281447573924602, 'auc': 0.9497828085567639, 'aupr': 0.9559660209943739, 'f1_score': 0.8846154393030335}in 932.1368322372437[0m
+Better models found w.r.t accuracy. Saved it!
+[93m Test Performance Per Class:{'loss': 0.281447573924602, 'auc': 0.9497828085567639, 'aupr': 0.9559660209943739, 'f1_score': 0.8846154393030335}in 937.4506196975708[0m
+Epoch 2 with loss: 0.241978304680395, training auc: 0.9681204225523323, training aupr: 0.970822203692892, weight_norm: 331.6617126464844 in 3224.2072792053223
+[95m Eval Performance:{'loss': 0.3018663628856734, 'auc': 0.9451785420253289, 'aupr': 0.9520774324568007, 'f1_score': 0.8825105326593491}in 927.1840808391571[0m
+[93m Test Performance:{'loss': 0.3015045010121763, 'auc': 0.9485535743283126, 'aupr': 0.9541444417294777, 'f1_score': 0.8853075451101994}in 927.1840808391571[0m
+Epoch 3 with loss: 0.1849209376704994, training auc: 0.9829784804466428, training aupr: 0.9827497416928158, weight_norm: 347.5256652832031 in 3628.374269962311
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 64	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 3	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 4740500
+Starting training with full batch...
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 32	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 3	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 4740500
+Starting training with full batch...
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 32	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 3	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: False	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 4740500
+Starting training with full batch...
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 32	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 3	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: True	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 1283732
+Starting training with full batch...
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 32	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 3	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: True	 valid_file: dev
+============================================
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 32	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 3	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: True	 valid_file: dev
+============================================
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 32	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 3	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: True	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 1283732
+Starting training with full batch...
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 32	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 3	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: True	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 1283732
+Starting training with full batch...
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 32	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 3	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: True	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 1283732
+Starting training with full batch...
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 32	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 3	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: True	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 1283732
+Starting training with full batch...
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 128	 batch_size: 32	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 128	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 3	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 128	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: True	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 1616596
+Starting training with full batch...
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 32	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 3	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: True	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 1283732
+Starting training with full batch...
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 32	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 3	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: True	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 1283732
+Starting training with full batch...
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 32	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 3	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: True	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 1283732
+Starting training with full batch...
+============ Initialized logger ============
+add_feat_emb: True	 add_ht_emb: True	 add_sb_emb: True	 add_transe_emb: True	 add_traspose_rels: False	 attn_rel_emb_dim: 64	 batch_size: 32	 clip: 1000	 constrained_neg_prob: 0.0	 dataset: None	 disable_cuda: False	 dropout: 0.2	 early_stop: 5	 edge_dropout: 0.2	 emb_dim: 64	 enclosing_sub_graph: True	 eval_every: 3	 eval_every_iter: 200	 exp_dir: utils\..\experiments\default1	 experiment_name: default1	 feat_dim: 600	 gnn_agg_type: sum	 gpu: 0	 has_attn: True	 has_kg: True	 hop: 2	 kge_model: TransE	 l2: 1e-05	 load_model: False	 lr: 0.005	 main_dir: utils\..	 max_links: 250000	 max_nodes_per_hop: 200	 model_type: dgl	 num_bases: 4	 num_epochs: 3	 num_gcn_layers: 3	 num_workers: 0	 optimizer: Adam	 rel_emb_dim: 64	 save_every: 10	 test_file: test	 train_file: train	 use_kge_embeddings: True	 valid_file: dev
+============================================
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Max distance from sub : 2, Max distance from obj : 2
+Device: cuda:0
+Input dim : 6, # Relations : 2, # Augmented relations : 26
+No existing model found. Initializing new model..
+Total number of parameters: 1283732
+Starting training with full batch...
